@@ -1,0 +1,27 @@
+{
+  "name": "queryselector-lite",
+  "version": "0.0.2",
+  "description": "Super Lite, No Dependency HTML Query Selector for browser/non-browser environments",
+  "main": "query-selector.lite.js",
+  "scripts": {
+    "test": "jest --watchAll",
+    "test-ci": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Laberbear/queryselector-lite.git"
+  },
+  "author": "Labebear",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Laberbear/queryselector-lite/issues"
+  },
+  "homepage": "https://github.com/Laberbear/queryselector-lite#readme",
+  "devDependencies": {
+    "eslint": "^7.27.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.3",
+    "eslint-plugin-jest": "^24.3.6",
+    "jest": "^26.6.3"
+  }
+}

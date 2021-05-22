@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`queryselectorlite should test querySelector #testid in file test.html 1`] = `
+Object {
+  "attributes": Object {
+    "id": "testid",
+  },
+  "children": Array [],
+  "contentEnd": 149,
+  "contentStart": 143,
+  "contents": "adsdasd",
+  "name": "h2",
+  "nameDone": true,
+  "tag0End": 142,
+  "tag0Start": 127,
+  "tag1End": 154,
+  "tag1Start": 154,
+}
+`;
+
+exports[`queryselectorlite should test querySelector .abcdef in file test.html 1`] = `
+Object {
+  "attributes": Object {
+    "class": "abcdef",
+  },
+  "children": Array [],
+  "contentEnd": 111,
+  "contentStart": 105,
+  "contents": "adsdasd",
+  "name": "h1",
+  "nameDone": true,
+  "tag0End": 104,
+  "tag0Start": 86,
+  "tag1End": 116,
+  "tag1Start": 116,
+}
+`;
+
+exports[`queryselectorlite should test querySelector h3 in file test.html 1`] = `
+Object {
+  "attributes": Object {},
+  "children": Array [],
+  "contentEnd": 175,
+  "contentStart": 169,
+  "contents": "adsdasd",
+  "name": "h3",
+  "nameDone": true,
+  "tag0End": 168,
+  "tag0Start": 165,
+  "tag1End": 180,
+  "tag1Start": 180,
+}
+`;
+
+exports[`queryselectorlite should test querySelectorAll #testid in file test.html 1`] = `
+Array [
+  Object {
+    "attributes": Object {
+      "id": "testid",
+    },
+    "children": Array [],
+    "contentEnd": 149,
+    "contentStart": 143,
+    "contents": "adsdasd",
+    "name": "h2",
+    "nameDone": true,
+    "tag0End": 142,
+    "tag0Start": 127,
+    "tag1End": 154,
+    "tag1Start": 154,
+  },
+]
+`;
+
+exports[`queryselectorlite should test querySelectorAll .abcdef in file test.html 1`] = `
+Array [
+  Object {
+    "attributes": Object {
+      "class": "abcdef",
+    },
+    "children": Array [],
+    "contentEnd": 111,
+    "contentStart": 105,
+    "contents": "adsdasd",
+    "name": "h1",
+    "nameDone": true,
+    "tag0End": 104,
+    "tag0Start": 86,
+    "tag1End": 116,
+    "tag1Start": 116,
+  },
+]
+`;
+
+exports[`queryselectorlite should test querySelectorAll h3 in file test.html 1`] = `
+Array [
+  Object {
+    "attributes": Object {},
+    "children": Array [],
+    "contentEnd": 175,
+    "contentStart": 169,
+    "contents": "adsdasd",
+    "name": "h3",
+    "nameDone": true,
+    "tag0End": 168,
+    "tag0Start": 165,
+    "tag1End": 180,
+    "tag1Start": 180,
+  },
+]
+`;
