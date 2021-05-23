@@ -1,8 +1,8 @@
 {
   "name": "queryselector-lite",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Super Lite, No Dependency HTML Query Selector for browser/non-browser environments",
-  "main": "query-selector.lite.js",
+  "main": "dist/bundle.js",
   "scripts": {
     "test": "jest --watchAll",
     "test-ci": "jest"
@@ -22,6 +22,9 @@
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.23.3",
     "eslint-plugin-jest": "^24.3.6",
-    "jest": "^26.6.3"
-  }
+    "jest": "^26.6.3",
+    "webpack": "^5.37.1",
+    "webpack-cli": "^4.7.0"
+  },
+  "dependencies": {}
 }

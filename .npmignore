@@ -1,0 +1,6 @@
+test.html
+*.spec.*
+.eslintrc.js
+query-selector-lite.js
+ast-lite.js
+webpack.config.js
