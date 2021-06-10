@@ -5,6 +5,6 @@ module.exports = {
     'jest/globals': true,
   },
   rules: {
-    "no-restricted-syntax": ["off"]
-}
+    'no-restricted-syntax': ['off'],
+  },
 };

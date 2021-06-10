@@ -25,4 +25,11 @@ describe('queryselectorlite', () => {
       });
     }
   }
+  it('should properly use grouping selectrs', async () => {
+    const doc = new Document();
+    await doc.load('test.html');
+    const result = doc.querySelectorAll('div,h3');
+    expect(result.length).toBe(5);
+    expect(result.length).toMatchSnapshot();
+  });
 });

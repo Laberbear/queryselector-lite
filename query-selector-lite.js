@@ -33,9 +33,13 @@ class Document {
   }
 
   querySelectorAll(query) {
-    const selectorFn = interpretSubquery(query);
-    const filteredTags = this.ast.getTagArray().filter(selectorFn);
-    return filteredTags;
+    const subQueries = query.split(',');
+    const tags = new Set();
+    for (const subQuery of subQueries) {
+      const selectorFn = interpretSubquery(subQuery);
+      this.ast.getTagArray().filter(selectorFn).forEach((item) => tags.add(item));
+    }
+    return Array.from(tags);
   }
 }
 

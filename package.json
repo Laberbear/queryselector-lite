@@ -1,6 +1,6 @@
 {
   "name": "queryselector-lite",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Super Lite, No Dependency HTML Query Selector for browser/non-browser environments",
   "main": "dist/bundle.js",
   "module": "./query-selector-lite.js",

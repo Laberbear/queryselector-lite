@@ -1,5 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`queryselectorlite should properly use grouping selectrs 1`] = `5`;
+
 exports[`queryselectorlite should test querySelector #testid in file test.html 1`] = `
 Object {
   "attributes": Object {
@@ -106,6 +108,32 @@ Array [
     "tag0Start": 165,
     "tag1End": 180,
     "tag1Start": 180,
+  },
+  Object {
+    "attributes": Object {},
+    "children": Array [],
+    "contentEnd": 228,
+    "contentStart": 218,
+    "contents": "testDescend",
+    "name": "h3",
+    "nameDone": true,
+    "tag0End": 217,
+    "tag0Start": 214,
+    "tag1End": 233,
+    "tag1Start": 233,
+  },
+  Object {
+    "attributes": Object {},
+    "children": Array [],
+    "contentEnd": 286,
+    "contentStart": 268,
+    "contents": "testEvenMoreDescent",
+    "name": "h3",
+    "nameDone": true,
+    "tag0End": 267,
+    "tag0Start": 264,
+    "tag1End": 291,
+    "tag1Start": 291,
   },
 ]
 `;
