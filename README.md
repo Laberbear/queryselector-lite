@@ -17,12 +17,16 @@ h3,div,.classes
 ```
 
 ## API Reference:
-```
+```javascript
 const Document = require('queryselector-lite');
 
 async function main() {
+  // Load HTML
   const doc = new Document();
-  await doc.load(PATH_TO_HTML_FILE);
+  await doc.loadFile(PATH_TO_HTML_FILE);
+  const docViaString = new Document(MY_HTML_STRING)
+
+  // Run queries
   console.log(doc.querySelector('h3'));
   console.log(doc.querySelectorAll('h3'));
   console.log(doc.querySelectorAll('div,h3'));

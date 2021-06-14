@@ -23,7 +23,15 @@ function interpretSubquery(query) {
 }
 
 class Document {
-  async load(filePath) {
+  constructor(htmlString = null) {
+    // Create AST from htmlString if provided
+    if (htmlString) {
+      this.ast = new ASTLite();
+      this.ast.createAST(htmlString);
+    }
+  }
+
+  async loadFile(filePath) {
     this.ast = new ASTLite();
     await this.ast.loadFile(filePath);
   }

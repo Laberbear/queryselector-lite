@@ -74,6 +74,26 @@ Array [
 ]
 `;
 
+exports[`queryselectorlite should test querySelectorAll #testid in file test.html pre loaded 1`] = `
+Array [
+  Object {
+    "attributes": Object {
+      "id": "testid",
+    },
+    "children": Array [],
+    "contentEnd": 149,
+    "contentStart": 143,
+    "contents": "adsdasd",
+    "name": "h2",
+    "nameDone": true,
+    "tag0End": 142,
+    "tag0Start": 127,
+    "tag1End": 154,
+    "tag1Start": 154,
+  },
+]
+`;
+
 exports[`queryselectorlite should test querySelectorAll .abcdef in file test.html 1`] = `
 Array [
   Object {
@@ -94,7 +114,71 @@ Array [
 ]
 `;
 
+exports[`queryselectorlite should test querySelectorAll .abcdef in file test.html pre loaded 1`] = `
+Array [
+  Object {
+    "attributes": Object {
+      "class": "abcdef",
+    },
+    "children": Array [],
+    "contentEnd": 111,
+    "contentStart": 105,
+    "contents": "adsdasd",
+    "name": "h1",
+    "nameDone": true,
+    "tag0End": 104,
+    "tag0Start": 86,
+    "tag1End": 116,
+    "tag1Start": 116,
+  },
+]
+`;
+
 exports[`queryselectorlite should test querySelectorAll h3 in file test.html 1`] = `
+Array [
+  Object {
+    "attributes": Object {},
+    "children": Array [],
+    "contentEnd": 175,
+    "contentStart": 169,
+    "contents": "adsdasd",
+    "name": "h3",
+    "nameDone": true,
+    "tag0End": 168,
+    "tag0Start": 165,
+    "tag1End": 180,
+    "tag1Start": 180,
+  },
+  Object {
+    "attributes": Object {},
+    "children": Array [],
+    "contentEnd": 228,
+    "contentStart": 218,
+    "contents": "testDescend",
+    "name": "h3",
+    "nameDone": true,
+    "tag0End": 217,
+    "tag0Start": 214,
+    "tag1End": 233,
+    "tag1Start": 233,
+  },
+  Object {
+    "attributes": Object {},
+    "children": Array [],
+    "contentEnd": 286,
+    "contentStart": 268,
+    "contents": "testEvenMoreDescent",
+    "name": "h3",
+    "nameDone": true,
+    "tag0End": 267,
+    "tag0Start": 264,
+    "tag1End": 291,
+    "tag1Start": 291,
+  },
+]
+`;
+
+exports[`queryselectorlite should test querySelectorAll h3 in file test.html pre loaded 1`] = `
 Array [
   Object {
     "attributes": Object {},
